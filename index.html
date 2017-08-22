@@ -23,75 +23,132 @@
    <main>
 
    	 <section class="greeting">
-     <!--А как это приветствие потом стилизовать? Текст же разный.
-     Сделать картинкой, и повесить на фон?-->
-   	 	<p class="greeting">Welcome to the gorgeous Sedona "Because the Grand Canyon sucks!"</p>
+      <div class="greeting-promo">
+        <img class="greeting-img" src="./img/promo-1" alt="Welcome">
+        <img class="greeting-img" src="./img/promo-2" alt="to the gorgeous">
+        <img class="greeting-img" src="./img/promo-3" alt="Sedona">
+        <img class="greeting-img" src="./img/promo-4" alt="Because the Grand Canyon sucks!">
+      </div>
+   	 	  <p class="visually-hidden">Welcome to the gorgeous Sedona "Because the Grand Canyon sucks!"</p>
    	 </section>
 
 
-   	   <section>
-   	   	<h1 class="block-title">Седона-небольшой городок в Аризоне,<br>
+   <section class="reasons">
+
+   	   	<h1 class="reasons-title">Седона-небольшой городок в Аризоне,
                                      заслуживающий большего!</h1>
-                 <!--Если я не ошибаюсь стиль отображения текста одинаковый, и для него можно использовать один стиль-->
-   	   	<p class="block-text">рассмотрим 5 причин, по которым седона круче чем, гранд каньон!</p>
-   	   </section>
-       <section>
+   	   	<p class="reasons-text">рассмотрим 5 причин, по которым седона круче чем, гранд каньон!</p>
 
-         <img src="http://placehold.it" alt="view1">
-          <h2 class="block-title">Настоящий городок</h2>
-           <p class="block-numder">-№1-</p>
-           <p class="block-text">седона - не аттракцион для туристов,<br>
+       <section class="reasons-item">
+           <img src="http://placehold.it" alt="Фото гостиницы">
+        <div class="reasons-item-features"> 
+           <h2 class="reasons-item-title">Настоящий городок</h2>
+           <span class="reasons-item-numder">-№1-</span>
+           <p class="reasons-item-text">седона - не аттракцион для туристов,
                                         там течет своя жизнь</p>
+        </div>
        </section>
-       <section>
+       <section class="block-features">
 
-         <img src="http://placehold.it" alt="small house">
-          <h2 class="block-title">жильё</h2>
-           <p class="block-text">рекомендуем пожить в настоящем<br>
+           <img src="http://placehold.it" alt="Иконка Домик">
+           <h2 class="block-title">жильё</h2>
+           <p class="block-text">рекомендуем пожить в настоящем
                                       мотеле, все как в кино!</p>
 
-         <img src="http://placehold.it" alt="burger">
-          <h2 class="block-title">еда</h2>
-           <p class="block-text">всегда заказывайте фирменный бургер,<br>
+           <img src="http://placehold.it" alt="Иконка Бургер">
+           <h2 class="block-title">еда</h2>
+           <p class="block-text">всегда заказывайте фирменный бургер,
                                           вы не разочаруетесь!</p>
 
-         <img src="http://placehold.it" alt="gift">
-          <h2 class="block-title">сувениры</h2>
-           <p class="block-text">не только китайского, но и местного<br>
+           <img src="http://placehold.it" alt="Иконка Подарок">
+           <h2 class="block-title">сувениры</h2>
+           <p class="block-text">не только китайского, но и местного
                                             производства</p>
        </section>
-       <section>
-
-         <img src="http://placehold.it" alt="view2">
-          <h2 class="block-title">там есть<br>
+       <section class="reasons-item">
+          <img src="http://placehold.it" alt="Фото моста Дьявола">
+         <div class="reasons-item-features">
+          <h2 class="reasons-item-title">там есть
                                 мост дьявола</h2>
-           <p class="block-numder">-№2-</p>
-           <p class="block-text">да, по нему можно пройти! если конечно<br>
+           <span class="reasons-item-numder">-№2-</span>
+           <p class="reasons-item-text">да, по нему можно пройти! если конечно
                                               вы осмелитесь</p>
+        </div>                                    
        </section>
-       <section>
+       <section class="block-features">
 
-           <h2 class="block-title">небольшая<br>
+           <h2 class="block-title">небольшая
                                    площадь</h2>
-           <p class="block-numder">-№3-</p>
-           <p class="block-text">все достопримечательности<br>
+           <span class="block-numder">-№3-</span>
+           <p class="block-text">все достопримечательности
                                    находятся очень близко</p>
 
-           <h2 class="block-title">красивая<br>
+           <h2 class="block-title">красивая
                                    дорога</h2>
-           <p class="block-numder">-№4-</p>
-           <p class="block-text">ехать в седону из лас-вегаса совсем<br>
+           <span class="block-numder">-№4-</span>
+           <p class="block-text">ехать в седону из лас-вегаса совсем
                                              не скучно!</p>
 
-           <h2 class="block-title">мало<br>
+           <h2 class="block-title">мало
                                 туристов</h2>
-           <p class="block-numder">-№5-</p>
-           <p class="block-text">большинство едет в гранд каньон и<br>
+           <span class="block-numder">-№5-</span>
+           <p class="block-text">большинство едет в гранд каньон и
                                           толпится там</p>
        </section>
-
+    </section>
+    <section class="order-otels">
+      <div class="promo">
+        <h1 class="promo-title">Заинтересовались?</h1>
+        <p class="promo-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <a href="#" class="promo-btn btn btn_promo">Поиск гостиницы в Седоне</a>
+        <div class="promo-modal modal">
+          <form class="modal-form" action="/echo" method="post">
+            <label class="modal-label" for="check-in-date">Дата заезда:
+              <input class="modal-input" type="date" name="check-in" id="check-in-date">
+              <a href="#" class="modal-calendar"></a>
+            </label>
+            <label class="modal-label" for="check-out-date">Дата выезда:
+              <input class="modal-input" type="date" name="check-out" id="check-out-date">
+              <a href="#" class="modal-calendar"></a>
+            </label>
+            <label class="modal-label" for="adults-count">Взрослые:
+              <a href="#" class="modal-counter modal-counter-minus"></a>
+              <input class="modal-count" type="number" name="adults" id="adults-count">
+              <a href="#" class="modal-counter modal-counter-plus"></a>
+            </label>
+            <label class="modal-label" for="children-count">Дети:
+              <a href="#" class="modal-counter modal-counter-minus"></a>
+              <input class="modal-count" type="number" name="children" id="children-count">
+              <a href="#" class="modal-counter modal-counter-plus"></a>
+            </label>
+            <button class="modal-btn btn btn-modal" type="submit" name="search">Найти</button>
+          </form>
+        </div>
+      </div>
+      <div class="map">
+        <img class="map-image" src="#" alt="Карта Седоны">
+        <div class="y-map" id="map"></div>
+      </div>
+    </section>
 
    </main>
 
+   <footer class="main-footer">
+    <div class="main-footer-cols">
+      <div class="main-footer-col">
+        <p class="hashtag">#visitsedona</p>
+      </div>
+      <div class="main-footer-col socials">
+        <a href="#" class="social social-Twitter"></a>
+        <a href="#" class="social social-Facebook"></a>
+        <a href="#" class="social social-Youtube"></a>
+      </div>
+      <div class="main-footer-col copyright">
+        <p class="copyright-text">Website by</p>
+        <img class="copyright-img" src="#" alt="Логотип HTML Academy">
+      </div>
+    </div>
+  </footer>
+<!--Как-то так. Похоже я переоценил свои временные запасы, не успеваю вообще-->
   </body>
 </html>
